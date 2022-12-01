@@ -11,16 +11,20 @@
   align-items: center;
   margin-bottom: 10px;
   height: 70px;
-  gap: 20px;
-  background-color: #fff;
+  gap: 30px;
+  background: linear-gradient(90deg, #ffffff 0%, rgb(230, 230, 230) 99.99%);
 }
 .item:last-of-type {
   margin-bottom: -0px;
 }
 
 .status {
-  margin-left: 10px;
-  width: 20px;
-  border-radius: 20px;
-  background-color: red;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
 }

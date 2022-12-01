@@ -1,11 +1,16 @@
+import { RiRadioButtonLine } from 'react-icons/ri';
 import PropTypes from 'prop-types';
 import React from 'react';
-import css from './FriendList.module.css'
+import css from './FriendList.module.css';
 
 const FriendListItem = ({ isOnline, avatar, name }) => {
   return (
     <li className={css.item}>
-      <span className={css.status}>{isOnline ? 'On' : 'Off'}</span>
+      {isOnline ? (
+        <RiRadioButtonLine className={css.status} color="red"  />
+      ) : (
+        <RiRadioButtonLine className={css.status} color="green" />
+      )}
       <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
       <p className={css.name}>{name}</p>
     </li>

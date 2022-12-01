@@ -30,7 +30,7 @@ ul {
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
-  background-color: #fff;
+  background: linear-gradient(90deg, #ffffff 0%, rgb(230, 230, 230) 99.99%);
   border-radius: 50px;
   font-size: 20px;
 }

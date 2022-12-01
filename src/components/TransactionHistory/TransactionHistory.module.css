@@ -5,4 +5,24 @@
   border: 1px solid darkgray;
   box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.1);
   background-color: rgb(230, 230, 230);
+  font-size: 18px;
+}
+tr {
+  height: 50px;
+  font-size: 16px;
+}
+
+td {
+  text-align: center;
+  justify-content: center;
+  height: 30px;
+}
+thead tr {
+  font-size: 20px;
+
+  background-color: #fff;
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(223, 223, 223);
 }
