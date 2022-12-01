@@ -1,0 +1,26 @@
+.friend_list {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid darkgray;
+  box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.1);
+  background-color: rgb(230, 230, 230);
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 70px;
+  gap: 20px;
+  background-color: #fff;
+}
+.item:last-of-type {
+  margin-bottom: -0px;
+}
+
+.status {
+  margin-left: 10px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: red;
+}
